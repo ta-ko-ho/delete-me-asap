@@ -1,0 +1,13 @@
+cli_args:
+- -m
+- flask
+- --app
+- /src/main
+- run
+- --debug
+- --no-reload
+env:
+  PYTHONEXECUTABLE: /bin/python
+kind: wasmer.io/App.v0
+name: mean-hot-fact
+package: ta-ko-ho/mean-hot-fact
